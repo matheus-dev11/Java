@@ -1,0 +1,50 @@
+package trabalho;
+
+import java.util.Locale;
+import java.util.Scanner; 
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int N, abs;
+		double RaizQ, RaizC, mod, ele;
+		
+		System.out.println("Digite um valor: ");
+		N = sc.nextInt();
+		
+		System.out.println("Valor absoluto: " + N);
+		
+		RaizQ = Math.sqrt(N);
+		
+		System.out.println("Raiz quadrada:  "+ String.format("%.2f", RaizQ));
+		
+		RaizC = Math.cbrt(N);
+		
+		System.out.println("Raiz cubica: "+ String.format("%.2f", RaizC));
+		
+		mod = N % 2;
+		
+		System.out.println("Resto da divisao: "+ mod);
+		
+		ele = Math.pow(N, 3);
+		
+		System.out.println("Elevado ao cubo : "+ ele);
+		
+		
+		
+	}
+			      
+}
+		
+	
+		
+		
+		
+	
+
+
+
